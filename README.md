@@ -1,67 +1,63 @@
-# 🌀 Sorting Algorithm Visualizer
+# 🌟 Sorting Algorithm Visualizer
 
-A dynamic web application that visually demonstrates the functioning of various sorting algorithms. Dive deep into the algorithms, understand their inner workings, and observe how they handle datasets in real-time!
+Welcome to the Sorting Algorithm Visualizer! Explore the fascinating world of sorting algorithms through live, interactive visualizations. Witness how different algorithms tackle datasets in real-time and gain a deeper understanding of their inner workings!
 
 ![Languages count](https://img.shields.io/github/languages/count/TechSavvyAmit/sorting_algo_visualizer?color=green)
 ![Top language](https://img.shields.io/github/languages/top/TechSavvyAmit/sorting_algo_visualizer?color=blue)
 ![Repo size](https://img.shields.io/github/repo-size/TechSavvyAmit/sorting_algo_visualizer?color=purple)
-![Latest commit](https://img.shields.io/github/last-commit/TechSavvyAmit/sorting_algo_visualizer?color=red)
 
 ---
 
-## 🌟 Features
+## 🚀 Key Features
 
-✔️ **Real-Time Algorithm Visualization** <br/>
-✔️ **Adjustable Speed & Data Size** <br/>
-✔️ **Color-Coded Visual Feedback for Better Understanding** <br/>
-✔️ **Time & Space Complexity Display** <br/>
-✔️ **Fully Responsive Design for All Devices** <br/>
-
----
-
-## 📊 Algorithms Implemented
-
-- **Bubble Sort:** Iteratively compares adjacent elements, swapping those in the wrong order. Best for small or nearly sorted datasets.
-  
-- **Selection Sort:** Finds the minimum element from the unsorted portion and swaps it with the first unsorted element. Consistent performance across inputs.
-  
-- **Insertion Sort:** Builds the sorted array one item at a time by inserting each element in its correct position. Great for small datasets.
-  
-- **Merge Sort:** Recursively divides the array and merges them back after sorting. Efficient and stable with O(n log n) time complexity.
-  
-- **Quick Sort:** Selects a pivot and partitions the array into two sub-arrays. Highly efficient but can degrade to O(n²) with poor pivot choices.
+✨ **Interactive Real-Time Visualization**  
+✨ **Customizable Speed & Dataset Size**  
+✨ **Color-Coded Feedback for Enhanced Understanding**  
+✨ **Display of Time & Space Complexity**  
+✨ **Fully Responsive for Any Device**  
 
 ---
 
-## 🎨 Color-Coded Visualization
+## 🔢 Implemented Algorithms
 
-- **🔵 Blue:** Default state
-- **🟡 Yellow:** Elements being compared
-- **🔴 Red:** Elements in incorrect positions
-- **🟢 Green:** Elements in correct positions
-
----
-
-## 🎛️ Controls
-
-- **Speed Control:** Adjust the visualization speed with six levels.
-- **Data Size Control:** Set the size of the dataset to visualize different sorting speeds and complexities.
-- **New Data:** Generate a new random dataset to visualize the sorting process again.
+- **Bubble Sort:** Compare adjacent elements and swap if needed—best for small or nearly sorted datasets.  
+- **Selection Sort:** Find the minimum element from the unsorted section and swap it into the correct position.  
+- **Insertion Sort:** Build the sorted array by inserting elements in the right spot, ideal for small datasets.  
+- **Merge Sort:** Divide and conquer! Recursively split the dataset and merge them back in sorted order.  
+- **Quick Sort:** Use a pivot element to divide the dataset and sort both subarrays efficiently—though it can degrade to O(n²) if the pivot is poorly chosen.
 
 ---
 
-## 📊 Algorithm Analysis
+## 🎨 Color Guide for Visualization
 
-For each algorithm, the application provides:
-
-- **Time Complexity** (Best, Average, Worst)
-- **Space Complexity**
+- **🔵 Blue:** Initial state  
+- **🟡 Yellow:** Elements under comparison  
+- **🔴 Red:** Misplaced elements  
+- **🟢 Green:** Sorted elements  
 
 ---
 
-## 🎥 Live Preview
+## 🕹️ Interactive Controls
 
-Check out the live app: [Sorting Algorithm Visualizer](https://sorting-algo-visualizer-dun.vercel.app/)
+- **Speed Adjustment:** Control the animation speed with six levels, from slow to fast.  
+- **Dataset Size:** Choose the size of your dataset to observe how different algorithms perform under various conditions.  
+- **Generate New Dataset:** Reset and visualize with a new, randomly generated dataset.
+
+---
+
+## 📈 Algorithm Insights
+
+Every algorithm comes with a breakdown of:
+
+- **Time Complexity** (Best, Average, Worst Case)  
+- **Space Complexity**  
+
+---
+
+## 🎬 Live Demo
+
+See the magic in action! Check out the live app:  
+[Sorting Algorithm Visualizer](https://sorting-algo-visualizer-dun.vercel.app/)
 
 ![Sorting Algorithm Visualizer Preview](https://github.com/TechSavvyAmit/Sorting_Algo_Visualizer/blob/main/Sorting_algo_visual.png)
 
